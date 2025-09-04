@@ -503,7 +503,7 @@ p {
   }
 }
 
-/* .mb-120 {
+.mb-120 {
   margin-bottom: 120px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -520,12 +520,12 @@ p {
   .mb-120 {
     margin-bottom: 70px;
   }
-} */
+}
 
-/* .mb-130 {
+.mb-130 {
   margin-bottom: 130px;
-} */
-/* @media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
   .mb-130 {
     margin-bottom: 100px;
   }
@@ -534,7 +534,7 @@ p {
   .mb-130 {
     margin-bottom: 90px;
   }
-} */
+}
 
 .mb-100 {
   margin-bottom: 100px;
@@ -5937,6 +5937,7 @@ header.style-3 .main-menu > ul > li.menu-item-has-children > a::before {
   color: #999999;
   transition: all 0.5s ease-out 0s;
 }
+
 @media (max-width: 991px) {
   header.style-3 .main-menu > ul > li.menu-item-has-children > a::before {
     display: none;
@@ -28143,6 +28144,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .breadcrumb-section .banner-content {
   text-align: center;
+  padding-top:4vw;
 }
 .breadcrumb-section .banner-content h1 {
   color: var(--title-color);
@@ -30072,6 +30074,7 @@ header.style-7 .primary-btn3.four svg {
   line-height: 1.4;
   margin-bottom: 15px;
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .career-feature-section .single-feature h5 {
     margin-bottom: 10px;
@@ -30091,6 +30094,17 @@ header.style-7 .primary-btn3.four svg {
     font-size: 15px;
   }
 }
+.career-feature-section .row > [class*='col-'] {
+  display: flex; /* makes all columns flex items */
+}
+
+.career-feature-section .single-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* spaces content evenly */
+  height: 100%; /* stretch all boxes equally */
+}
+
 .career-feature-section .single-feature:hover .icon svg {
   animation: bounceIn 1.2s linear;
 }
