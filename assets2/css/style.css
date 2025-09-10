@@ -1295,10 +1295,11 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .primary-btn3:hover {
-  color: var(--white-color);
+  color: #00597A;
 }
 .primary-btn3:hover svg {
-  stroke: var(--dark-black-color);
+  stroke: #00597A;
+
 }
 .primary-btn3:hover span {
   width: 225%;
@@ -26268,7 +26269,7 @@ header.style-7 .primary-btn3.four svg {
 ========================================*/
 .home6-process-section {
     background-image: 
-        url(../img/home6/home6-process-bg.png),
+        url(../img/home6/home6-process-bg2.png),
         linear-gradient(180deg, #C1E8CF 0%, #C1E8CF 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -38324,4 +38325,28 @@ body:not(.is-mobile) .tt-style-switch:hover {
     color: red;
     font-size: 13px;
     margin-top: 3px;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;   /* distance from bottom */
+    left: 20px;    /* distance from right */
+    z-index: 1000;  /* always on top */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #25d366; /* WhatsApp green */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
 }
