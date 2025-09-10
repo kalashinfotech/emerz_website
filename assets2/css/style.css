@@ -26234,6 +26234,7 @@ header.style-7 .primary-btn3.four svg {
     display: none;
   }
 }
+
 .testimonial-card3 .video-player {
   width: 36px;
   height: 36px;
@@ -26266,11 +26267,14 @@ header.style-7 .primary-btn3.four svg {
   60. Home6 Process Section CSS
 ========================================*/
 .home6-process-section {
-  background-image: url(../img/home6/home6-process-bg.png), linear-gradient(180deg, #FFEFB4 0%, #FFEFB4 100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 100px 0 110px;
+    background-image: 
+        url(../img/home6/home6-process-bg.png),
+        linear-gradient(180deg, #C1E8CF 0%, #C1E8CF 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 110px;
 }
+
 @media (max-width: 1199px) {
   .home6-process-section {
     padding: 90px 0;
