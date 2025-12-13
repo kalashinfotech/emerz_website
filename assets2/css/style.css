@@ -142,6 +142,7 @@ Version: 1.0
   --borders-color: #eee;
   --background-color:linear-gradient(to bottom, #00A86B, #00597A);
   --background-color2:#008072;
+  --shade-color: #00A86B;
 }
 
 body.dark {
@@ -18712,7 +18713,7 @@ header.style-7 .primary-btn3.four svg {
   animation: up-down2 2s linear infinite alternate;
 }
 .home3-service-section .shape svg path {
-  fill: #F4CE86;
+  fill: var(--shade-color);
 }
 .home3-service-section .shape svg path:last-child {
   fill: var(--title-color);
@@ -29323,7 +29324,7 @@ header.style-7 .primary-btn3.four svg {
   margin-bottom: 10px;
 }
 .service2-page .section-title2 .shape-and-title-area svg path {
-  fill: #F4CE86;
+  fill: var(--shade-color);
 }
 .service2-page .section-title2 .shape-and-title-area svg path:last-child {
   fill: var(--title-color);
@@ -30275,7 +30276,7 @@ header.style-7 .primary-btn3.four svg {
   margin-bottom: 10px;
 }
 .career-page-position-section .section-title .shape-and-title-area svg path {
-  fill: #F4CE86;
+  fill: var(--shade-color);
 }
 .career-page-position-section .section-title .shape-and-title-area svg path:last-child {
   fill: var(--title-color);
@@ -34696,7 +34697,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .team-page-gallery-section svg path {
-  fill: #F4CE86;
+  fill: var(--shade-color);
 }
 .team-page-gallery-section svg path:last-child {
   fill: var(--white-color);
@@ -35123,6 +35124,10 @@ header.style-7 .primary-btn3.four svg {
 /*=====================================
   90. About Page CSS
 ========================================*/
+.about-page-banner-section {
+  padding: 2rem 0;
+}
+
 .about-page-banner-section .slider-area .single-img img {
   border-radius: 50% 0 50% 50%;
 }
@@ -35327,7 +35332,7 @@ header.style-7 .primary-btn3.four svg {
 
 .about-page-feature-section {
   background-color: #F0F0F0;
-  padding: 220px 0 110px;
+  padding: 80px 0 80px;
 }
 @media (max-width: 1199px) {
   .about-page-feature-section {
@@ -35349,7 +35354,7 @@ header.style-7 .primary-btn3.four svg {
   margin-bottom: 10px;
 }
 .about-page-feature-section .section-title2 .shape-and-title-area svg path {
-  fill: #F4CE86;
+  fill: var(--shade-color);
 }
 .about-page-feature-section .section-title2 .shape-and-title-area svg path:last-child {
   fill: var(--title-color);
@@ -35605,7 +35610,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .about-page-gallery-section .vector svg path {
-  fill: #F4CE86;
+  fill: var(--shade-color);
 }
 .about-page-gallery-section .vector svg path:last-child {
   fill: var(--white-color);
@@ -35627,7 +35632,7 @@ header.style-7 .primary-btn3.four svg {
   fill: var(--white-color);
 }
 .about-page-gallery-section .vector.two svg circle {
-  fill: #F4CE86;
+  fill: var(--shade-color);
 }
 @media (max-width: 767px) {
   .about-page-gallery-section .gallery-img-wrap a img {
