@@ -12153,7 +12153,7 @@ header.style-7 .primary-btn3.four svg {
   07. Home1 Process Section CSS
 ========================================*/
 .home1-process-section .process-wrapper {
-  background-image: url(../img/home1/home1-process-bg.png), linear-gradient(180deg, #FFF2E5 0%, #FFF2E5 100%);
+  background-image: url(../img/home1/home1-process-bg.png), linear-gradient(180deg, #c5f2da 0%, #d4fbe5 100%);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
