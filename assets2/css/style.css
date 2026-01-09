@@ -1830,7 +1830,7 @@ body.tt-magic-cursor #magic-cursor {
 .section-title2 h2 {
   color: var(--title-color);
   font-family: var(--font-suse);
-  font-size: 55px;
+  font-size: 53px;
   font-weight: 600;
   line-height: 1.1;
   margin-bottom: 0;
@@ -22233,14 +22233,14 @@ header.style-7 .primary-btn3.four svg {
 }
 .home4-team-section .button-area {
   position: relative;
-  padding-left: 80px;
+  padding-left: 60px;
   padding-top: 20px;
   margin-bottom: 10px;
 }
 .home4-team-section .button-area .arrow {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -25px;
   fill: var(--title-color);
 }
 .home4-team-section .button-area h5 {
