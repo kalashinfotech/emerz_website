@@ -12153,7 +12153,8 @@ header.style-7 .primary-btn3.four svg {
   07. Home1 Process Section CSS
 ========================================*/
 .home1-process-section .process-wrapper {
-  background-image: url(../img/home1/home1-process-bg.png), linear-gradient(180deg, #c5f2da 0%, #d4fbe5 100%);
+  /* background-image: url(../img/home1/home1-process-bg.png), linear-gradient(180deg, #c5f2da 0%, #d4fbe5 100%); */
+  background-image: linear-gradient(180deg, #003c30 0%, #003c30 100%);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -12183,7 +12184,7 @@ header.style-7 .primary-btn3.four svg {
   }
 }
 .home1-process-section .process-wrapper::before {
-  content: url(../img/home1/home1-process-vector.svg);
+  /* content: url(../img/home1/home1-process-vector.svg); */
   position: absolute;
   top: 15%;
   right: 0;
@@ -12254,7 +12255,7 @@ header.style-7 .primary-btn3.four svg {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background-color: var(--primary-color1);
+  background-color: #00956e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12274,7 +12275,7 @@ header.style-7 .primary-btn3.four svg {
   transform: translateX(-50%);
   width: 12px;
   height: 9px;
-  background-color: var(--primary-color1);
+  background-color: #00956e;
   -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
           clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
@@ -22387,6 +22388,9 @@ header.style-7 .primary-btn3.four svg {
   color: var(--white-color);
   font-size: 14px;
 }
+.team-card .team-content .social-list li .social-area .icon i:hover {
+  color: var(--white-color);
+}
 .team-card .team-content .social-list li .social-area .content span {
   color: var(--title-color);
   font-family: var(--font-suse);
@@ -22399,10 +22403,10 @@ header.style-7 .primary-btn3.four svg {
   border-radius: 100px;
   transition: 0.5s;
 }
-.team-card .team-content .social-list li .social-area:hover .content span {
+/* .team-card .team-content .social-list li .social-area:hover .content span {
   background-color: var(--primary-color3);
   color: var(--white-color);
-}
+} */
 .team-card:hover .team-img .emoji-area {
   transform: scale(1);
   opacity: 1;
@@ -29834,10 +29838,10 @@ header.style-7 .primary-btn3.four svg {
   border-radius: 100px;
   transition: 0.5s;
 }
-.social-responsibility-contact-section .social-responsibility-contact-wrap .contact-content .social-list li .social-area:hover .content span {
+/* .social-responsibility-contact-section .social-responsibility-contact-wrap .contact-content .social-list li .social-area:hover .content span {
   background-color: var(--primary-color3);
   color: var(--white-color);
-}
+} */
 .social-responsibility-contact-section .social-responsibility-contact-wrap .image-grp {
   position: absolute;
   top: 50%;
@@ -37416,7 +37420,8 @@ body.dark .feature-card.two .learn-btn, body.dark .feature-card.three .learn-btn
   background-color: #2F2F2F;
 }
 body.dark .home1-process-section .process-wrapper {
-  background-image: url(../img/home1/home1-process-bg-dark.png), linear-gradient(180deg, #1C1A1E 0%, #1C1A1E 100%);
+  /* background-image: url(../img/home1/home1-process-bg-dark.png), linear-gradient(180deg, #1C1A1E 0%, #1C1A1E 100%); */
+  background-image: linear-gradient(180deg, #1C1A1E 0%, #1C1A1E 100%);
 }
 body.dark .home1-process-section .process-wrapper .section-title span {
   background-color: #131313;
@@ -37703,10 +37708,10 @@ body.dark .team-card .team-content .divider {
 body.dark .team-card .team-content .social-area .content span {
   background-color: #2f2f2f;
 }
-body.dark .team-card .team-content .social-area:hover .content span {
+/* body.dark .team-card .team-content .social-area:hover .content span {
   background-color: var(--primary-color3);
   color: var(--white-color);
-}
+} */
 body.dark .home5-banner-section {
   background-image: url(../img/home5/home5-banner-bg-light.png), linear-gradient(180deg, #1C1A1E 0%, #1C1A1E 100%);
 }
