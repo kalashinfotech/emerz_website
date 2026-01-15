@@ -88,10 +88,10 @@
 		slidesPerView: 1,
 		speed: 1500,
 		spaceBetween: 60,
-		autoplay: {
-			delay: 2500, // Autoplay duration in milliseconds
-			disableOnInteraction: false,
-		},
+		// autoplay: {
+		// 	delay: 2500, // Autoplay duration in milliseconds
+		// 	disableOnInteraction: false,
+		// },
 		navigation: {
 			nextEl: ".process-slider-next",
 			prevEl: ".process-slider-prev",
@@ -131,10 +131,10 @@
 		loop: true,
 		effect: 'fade', // Use fade effect
 		fadeEffect: { crossFade: true },
-		autoplay: {
-			delay: 2500,
-			disableOnInteraction: false,
-		},
+		// autoplay: {
+		// 	delay: 2500,
+		// 	disableOnInteraction: false,
+		// },
 		navigation: {
 			nextEl: ".testimonial-slider-next",
 			prevEl: ".testimonial-slider-prev",
