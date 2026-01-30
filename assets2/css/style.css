@@ -23243,7 +23243,7 @@ header.style-7 .primary-btn3.four svg {
   position: relative;
   z-index: 1;
   position: sticky;
-  top: 80px;
+  top: 50px;
 }
 @media (max-width: 1399px) {
   .home5-service-section .service-wrapper .single-service {
@@ -23269,9 +23269,11 @@ header.style-7 .primary-btn3.four svg {
   fill: none;
   stroke: var(--white-color);
   position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
+  /* top: 0; */
+  /* right: 0; */
+    top: unset;
+  bottom: 0;
+  line-height: 1;
 }
 @media (max-width: 991px) {
   .home5-service-section .service-wrapper .single-service .vector {
@@ -23359,18 +23361,22 @@ header.style-7 .primary-btn3.four svg {
   min-width: 302px;
   justify-content: space-between;
 }
+.home5-service-section .service-wrapper .single-service:nth-child(1) .vector {
+  top: unset;
+  bottom: 0;
+  line-height: 1;
+}
 .home5-service-section .service-wrapper .single-service .service-img {
-  -webkit-mask-image: url(../img/home5/service-img-bg1.png);
-          mask-image: url(../img/home5/service-img-bg1.png);
+  -webkit-mask-image: url(../img/home5/service-img-bg2.png);
+          mask-image: url(../img/home5/service-img-bg2.png);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
-  max-width: 402px;
-  width: 100%;
-  margin-left: auto;
+  max-width: 466px;
+  max-height: 330px;
 }
 .home5-service-section .service-wrapper .single-service:nth-child(2) {
   background-color: #EAEAEA;
-  top: 200px;
+  top: 50px;
 }
 .home5-service-section .service-wrapper .single-service:nth-child(2) .vector {
   top: unset;
@@ -23391,11 +23397,11 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-service-section .service-wrapper .single-service:nth-child(3) {
   background-color: #E2E1FF;
-  top: 320px;
+  top: 50px;
 }
 .home5-service-section .service-wrapper .single-service:nth-child(3) .service-img {
-  -webkit-mask-image: url(../img/home5/service-img-bg3.png);
-          mask-image: url(../img/home5/service-img-bg3.png);
+  -webkit-mask-image: url(../img/home5/service-img-bg2.png);
+          mask-image: url(../img/home5/service-img-bg2.png);
   max-width: 466px;
   max-height: 330px;
 }
@@ -23407,7 +23413,7 @@ header.style-7 .primary-btn3.four svg {
 }
 .home5-service-section .service-wrapper .single-service:nth-child(4) {
   background-color: #F2F1CE;
-  top: 500px;
+  top: 50px;
 }
 .home5-service-section .service-wrapper .single-service:nth-child(4) .vector {
   top: unset;
@@ -23415,13 +23421,55 @@ header.style-7 .primary-btn3.four svg {
   line-height: 1;
 }
 .home5-service-section .service-wrapper .single-service:nth-child(4) .service-img {
-  -webkit-mask-image: url(../img/home5/service-img-bg4.png);
-          mask-image: url(../img/home5/service-img-bg4.png);
+  -webkit-mask-image: url(../img/home5/service-img-bg2.png);
+          mask-image: url(../img/home5/service-img-bg2.png);
   max-width: 466px;
   max-height: 330px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .home5-service-section .service-wrapper .single-service:nth-child(4) .service-img {
+    -webkit-mask-size: contain;
+            mask-size: contain;
+  }
+}
+.home5-service-section .service-wrapper .single-service:nth-child(5) {
+  background-color: #D2E8D9;
+  top: 50px;
+}
+.home5-service-section .service-wrapper .single-service:nth-child(5) .vector {
+  top: unset;
+  bottom: 0;
+  line-height: 1;
+}
+.home5-service-section .service-wrapper .single-service:nth-child(5) .service-img {
+  -webkit-mask-image: url(../img/home5/service-img-bg2.png);
+          mask-image: url(../img/home5/service-img-bg2.png);
+  max-width: 466px;
+  max-height: 330px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home5-service-section .service-wrapper .single-service:nth-child(5) .service-img {
+    -webkit-mask-size: contain;
+            mask-size: contain;
+  }
+}
+.home5-service-section .service-wrapper .single-service:nth-child(6) {
+  background-color: #EAEAEA;
+  top: 50px;
+}
+.home5-service-section .service-wrapper .single-service:nth-child(6) .vector {
+  top: unset;
+  bottom: 0;
+  line-height: 1;
+}
+.home5-service-section .service-wrapper .single-service:nth-child(6) .service-img {
+  -webkit-mask-image: url(../img/home5/service-img-bg2.png);
+          mask-image: url(../img/home5/service-img-bg2.png);
+  max-width: 466px;
+  max-height: 330px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home5-service-section .service-wrapper .single-service:nth-child(6) .service-img {
     -webkit-mask-size: contain;
             mask-size: contain;
   }
