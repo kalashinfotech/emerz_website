@@ -2,8 +2,41 @@
   font-size: 58px;
 }
 
+.social-title {
+  font-size: 60px;
+}
+
+.testimonial-content-wrap {
+  min-height: 415px;
+}
+
+.sevices-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 50px;
   }
+
+  .social-title {
+  font-size: 50px;
+}
+
+.testimonial-content-wrap {
+  min-height: 550px;
+}
+
+.sevices-wrap {
+  display: block;
+}
+
+.home3-service-section .sevices-wrap .single-services {
+  padding: 5px;
+}
+
+.home3-service-section .sevices-wrap .single-services .title-area {
+  margin-bottom: 0px;
+}
 }
